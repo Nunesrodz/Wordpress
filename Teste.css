@@ -1,0 +1,160 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+    text-decoration:none;
+}
+
+#pagina {
+	width: 1000px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#topo {
+	width: 1000px;
+	margin: auto;
+}
+#pagina #topo #logo h1 {
+	font-size: 10px;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 375px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	word-spacing: normal;
+	padding: 0px;
+}
+
+#slide {
+	width: 975px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#pagina #slide img {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 25px;
+}
+
+#conteudo {
+	width: 1000px;
+}
+#rodape {
+	width: 1000px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	background-color: #CCC;
+	background-repeat: repeat;
+}
+
+#contato{
+	width: 600px;
+	float: left;
+}
+#contato2 {
+	float: right;
+	width: 300px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#pagina #topo #logo img {
+	float: left;
+	margin-left: 25px;
+}
+#pagina #rodape #contato #contato-rj table {
+	margin-left: 25px;
+}
+
+
+#contato-rj {
+	background-image: url(images/rj.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	width: 250px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding: 0;
+}
+
+#contato-sp {
+	background-image: url(images/sp.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: right;
+	width: 250px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+#logo {
+	float: left;
+	width: 300px;
+}
+#menu {
+	float: right;
+	width: 600px;
+}
+
+
+
+#rodape #contato2 img {
+	margin-botton: 15px;
+	margin-bottom: 10px;
+}
+
+#contato p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #999;
+}
+
+ul#nav{
+	width: 320px;
+	background: #000;
+	float: left;
+	margin-top: 40px;
+	height: 30px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-left: 100px;
+}
+
+ul#nav li {
+	display: inline;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	padding-right: 30px;
+	background-attachment: fixed;
+	background-image: url(images/separador.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+ul#nav li a:link, li a:visited, li a:active{
+	color: #FFF;
+}
+
+ul#nav li.bg-none{background:none;}
+
+ul#nav li.linkleft{padding-left:5px;}
+
+ul#nav li a:hover{color:#f4ab00;}
+
+

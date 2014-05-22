@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Rodrigo Nunes Santos" />
+<meta name="description" content="Site Teste Rodrigo Nunes" />
+<meta name="keywords" content="Site, Teste, Rodrigo, HTML, Dreamweaver" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Layout Teste Rodrigo</title>
+<!-- TemplateEndEditable -->
+<link href="../Teste.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="pagina">
+  <div id="topo">
+    <div id="logo">
+    <img src="../images/logo.png" width="267" height="103" alt="Logo Profite" longdesc="Logo" />
+    <!-- Pretendia a inserção da imagem através de css, porém obtive erros então usei o img src<h1>Profite Digital Marketing</h1> --> </div>
+    <div id="menu">
+    <ul id="nav">
+				<li class="color-white"><a href="#">O FELIPE MACHADO</a></li>
+				<li class="linkleft"><a href="#">FOTOS DO CASAMENTO</a></li>
+			</ul>
+    </div>
+    
+  </div>
+  <div id="slide"><a href="#"><img src="../images/slide.png" width="967" height="347" alt="Slide" longdesc="Slide de 3 fases a fazer em jscript" /></a>
+    <!-- Pretendia realizar a construção desse slide com elementos do Jquery porém, não consegui estruturar o slide bem --></div>
+    <div id="conteudo">
+    <img src="../images/C.png" width="1000" height="500" alt="Conteudo Loja" longdesc="Conteudo Custom Loja" /><br/>
+    </div>
+  <div id="rodape"> 
+	<div id="contato">
+            <div id="contato-rj">
+                <table width="250" border="0">
+              <tr>
+                <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th scope="col"><p>Rua do acre 77, sala 1108<br />
+                        Centro- Rio de Janeiro<br/>
+                        <strong>tel.: +55 (21) 3563-6610</strong><br/>
+                        </p></th>
+              </tr>
+            </table>
+            </div>
+            <div id="contato-sp">
+             <table width="250" border="0">
+              <tr>
+                <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th scope="col"><p> Av.Dr.Cardoso de Melo, 1.750<br/>
+                       6º andar - Vila Olímpia <br/>
+                       <strong>tel.: +55 (11) 3337.5618</strong><br/>
+                     </p></th>
+               </tr>
+            </table>
+            </div>
+        </div>            
+  </div>             
+
+  <div id="contato2">
+        <a href="#"><img src="../images/contato1.png" alt="contato1"/></a>
+       	 <a href="#"><img src="../images/contato2.png" alt="contato2"/> </a>
+        </div>
+</div>
+</div>
+</body>
+</html>
